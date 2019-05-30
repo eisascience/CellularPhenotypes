@@ -8,5 +8,20 @@ The aim of this curation is to bring together a large and comprehensive repertoi
 I believe it is critical to start at the scope of tissue. As this project get larger, I may develop a database system and split the tissues by species. For now, please start with finding the tissue type of interest stored in this repo. 
 
 
+### List of gene vectors
+For now, because the main utility of these genes is in R, I define a list named 'SGS.LS'. 
 
+The next layer in the list is the tissue. Then the vectors of gene names. 
+
+```{r }
+#List of gene names
+ SGS.LS <- list()
+ 
+ #Tissues 
+    SGS.LS$Blood <- list()
+    SGS.LS$Testis <- list()
+    SGS.LS$Lung <- list()
+ 
+ 
+ ```
 
