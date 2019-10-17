@@ -17,6 +17,23 @@ SGS.LS$Blood$Lymphoid               <- c("PTPRC", "CD2", "CD5", "RPL21", "RPL23"
   SGS.LS$Blood$TCellSecondary        <- c("CD2", "CD5", "CD6")
   SGS.LS$Blood$TCellTranscription    <- c("MAL", "LAT", "TCRIM", "CD28", "ZAP70", "FYN", "GATA3", "LEF1", "TCF7", "RUNX2", "STAT4", "SATB1")
   
+  SGS.LS$Blood$TCellPhyl <- c('CD8A', 'CD8B', 'CD4', 'IL7R')
+  SGS.LS$Blood$EffectorVsMemory <- c('CCR7', 'SELL', 'GZMB', 'CCR5', 'IL2RA', 'PTPRC', 'IL7R', 'CTLA4')
+  SGS.LS$Blood$CD8Activation <- c('CCL4', 'IFNG', 'CD69', 'TNF', 'NFKBID', 'LTB', 'TNFRSF9', 'CCL4L2')
+  SGS.LS$Blood$Cytotoxicity <- c('PRF1', 'GNLY', 'NKG7', 'GZMA','GZMB','GZMH','GZMK','GZMM')
+  SGS.LS$Blood$Inhibitory <- c('TIGIT', 'CTLA4', 'BTLA', 'PDCD1', 'CD274')
+  SGS.LS$Blood$TranscriptionFactors <- c('TBX21', 'GATA3', 'RORC', 'FOXP3')
+  SGS.LS$Blood$Signaling <- c('HCST', 'TYROBP')
+  SGS.LS$Blood$KIR_LILR <- c('LILRA5','LILRA6','LILRB4','LILRB5','KIR2DL4','KIR3DX1', 'MAMU-KIR')
+  SGS.LS$Blood$KLRS <- c('KLRB1', 'KLRC1', 'KLRD1', 'KLRF1', 'KLRF2', 'KLRG1', 'KLRG2')
+  SGS.LS$Blood$Cytokines <- c('IL1A','IL1B','IL1R1','IL1R2','IL1RAP','IL1RAPL1','IL1RAPL2','IL1RL1','IL1RL2','IL1RN','IL2','IL2RA','IL2RB','IL2RG','IL3','IL3RA','IL4','IL4I1','IL4R','IL5','IL5RA','IL6','IL6R','IL6ST','IL7','IL7R','IL9','IL10','IL10RA','IL11','IL12A','IL12B','IL12RB1','IL12RB2','IL13','IL13RA2','IL15','IL15Ra','IL16','IL17A','IL17B','IL17C','IL17D','IL17F','IL17RA','IL17RB','IL17RC','IL17RD','IL17RE','IL18BP','IL18R1','IL18RAP','IL19','IL20','IL20RA','IL20RB','IL21','IL21R','IL22','IL22RA2','IL23A','IL24','IL25','IL26','IL27','IL27RA','IL31','IL31RA','IL33','IL34','IL36A','IL36B','IL36G','IL37','ILDR1','ILDR2','ILF2','ILF3','ILK','ILKAP','ILVBL')
+  SGS.LS$Blood$ChemokinesA <- c('CCL1','CCL2','CCL4','CCL4L2','CCL5','CCL8','CCL11','CCL13','CCL14','CCL16','CCL17','CCL18','CCL19','CCL20','CCL21','CCL22','CCL23','CCL24','CCL25','CCL26','CCL27','CCL28') 
+  SGS.LS$Blood$ChemokinesB <- c('CCR1','CCR2','CCR3','CCR4','CCR5','CCR6','CCR7','CCR8','CCR9','CCR10','CCRL2') 
+  SGS.LS$Blood$ChemokinesC <- c('CXCL1','CXCL3','CXCL9','CXCL10','CXCL13','CXCL14','CXCL16','CXCR1','CXCR2','CXCR3','CXCR4','CXCR5','CXCR6','XCR1')
+
+
+
+  
   # Activation/Stim
   
     SGS.LS$Blood$HighlyActivated    <- c("TNFRSF9", "NFKBID", "CCL4", "CCL4L2", "IRF8", "IFNG", "CD83", "CD82", "PLEK", "RGCC") #"ENSMMUG00000013779"
