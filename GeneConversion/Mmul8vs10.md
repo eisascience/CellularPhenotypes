@@ -11,11 +11,11 @@ http://oct2018.archive.ensembl.org/Macaca_mulatta/Info/Index
 
 There is no specific order, except that the order of Mmul8 vector matches the Mmul10 vector. 
 
-Mmul8 <- c("CD8B", "CCL4", "CD27", "GNLY", "GZMH", "CXCR1", "PD1", "IL15Ra")
+Mmul8 <- c("CD8B", "CCL4", "GNLY", "PD1")
 
-Mmul10 <- c('ENSMMUG00000003532', )
+Mmul10 <- c("ENSMMUG00000003532", "CCL4L1", "ENSMMUG00000063583", "PDC1")
 
 
-## Complex Mapping
+## Not found in 10
 
-Mmul8_complex <- c("FAS")
+Mmul8_Only <- c("FAS", "CD27", "GZMH", "CXCR1")
