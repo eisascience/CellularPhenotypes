@@ -18,4 +18,4 @@ Mmul10 <- c("ENSMMUG00000003532", "CCL4L1", "ENSMMUG00000063583", "PDC1")
 
 ## Not found in 10
 
-Mmul8_Only <- c("FAS", "CD27", "GZMH", "CXCR1")
+Mmul8_Only <- c("FAS", "CD27", "GZMH", "CXCR1", "FCGRA")
