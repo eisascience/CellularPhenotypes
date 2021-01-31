@@ -1,0 +1,30 @@
+Package: CellularPhenotypes
+Type: Package
+Title: Cellular Phenotypes (Gene lists) Package
+Version: 0.0.1
+Author: Eisa Mahyari
+Maintainer: The package maintainer <mahyarie@ohsu.edu>
+Description: The goal of this package is to curate gene lists of interest defining cellular phenotypes, signatures, and states.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+Depends:
+    R (>= 3.5.0)
+Imports:
+    data.table,
+    dplyr,
+    ggplot2,
+    cowplot,
+    knitr,
+    RColorBrewer,
+    stringr,
+Suggests:
+    ggvis,
+    devtools,
+Remotes:
+RoxygenNote: 7.1.1
+Collate: 
+    'ClassDefs.r'
+    'PBMC.R'
+
+    
