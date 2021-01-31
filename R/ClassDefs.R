@@ -1,7 +1,9 @@
 #TODO: wrap around fx of  https://www.bioconductor.org/packages/devel/bioc/vignettes/ontoProc/inst/doc/ontoProc.html
 #TODO: get full list of cell phenotype codes from http://www.obofoundry.org/ontology/go.html
 
-
+#' GeneList class def
+#' @param name give it a name
+#' @export
 setClass("GeneList",
          slots = list(
            name = "character",
@@ -12,17 +14,11 @@ setClass("GeneList",
            genelist = 'character'
          ))
 
-#example:
-rh_Tcell = new('GeneList',
-    name = "rh_Tcell",
-    species = "rhesusMacaque",
-    seq.company ="10X",
-    seq.platform ="Illumina",
-    ref.genome = 'NCBI',
-    genelist = c("CD3D", "CD3E", "CD3G")
-)
 
 
+#' Phenotype class def
+#' @param name give it a name
+#' @export
 setClass("Phenotype",
          slots = list(name = "character",
                       descendant.of = "character",
@@ -32,7 +28,22 @@ setClass("Phenotype",
                       ontobee.url = "character"),
          contains = "GeneList")
 
-#example
+
+
+### lists
+
+rh_Tcell = new('GeneList',
+               name = "rh_Tcell",
+               species = "rhesusMacaque",
+               seq.company ="10X",
+               seq.platform ="Illumina",
+               ref.genome = 'NCBI',
+               genelist = c("CD3D", "CD3E", "CD3G")
+)
+
+
+### phenotypes
+
 new('Phenotype', 
     name="T cell",
     descendant.of="Lymphocytes",
@@ -40,4 +51,4 @@ new('Phenotype',
     gene.list = rh_Tcell,
     ontology.tag = "CL_0000084",
     ontobee.url = "http://www.ontobee.org/ontology/CL?iri=http://purl.obolibrary.org/obo/CL_0000084"
-    )
+)

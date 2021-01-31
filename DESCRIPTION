@@ -25,6 +25,5 @@ Remotes:
 RoxygenNote: 7.1.1
 Collate: 
     'ClassDefs.r'
-    'PBMC.R'
 
     
