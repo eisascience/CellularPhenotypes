@@ -29,6 +29,9 @@ CellularPhenotypes::demoPhenoPlot()
 
 ```
 
+![](images/demoplot.png?raw=true)
+
+
 ## example case use
 
 ```{r }
