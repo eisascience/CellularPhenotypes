@@ -18,12 +18,14 @@ Imports:
     knitr,
     RColorBrewer,
     stringr,
+    ontoProc,
 Suggests:
     ggvis,
     devtools,
 Remotes:
 RoxygenNote: 7.1.1
 Collate: 
-    'ClassDefs.r'
+    'ClassDefs.R'
+    'Viz_ontoProc.R'
 
     
