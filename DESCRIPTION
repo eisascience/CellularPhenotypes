@@ -26,6 +26,8 @@ Remotes:
 RoxygenNote: 7.1.1
 Collate: 
     'ClassDefs.R'
+    'Lymphocytes_Tcells_GeneSets.R'
+    'Lymphocytes_Tcells.R'
+    'Myeloids_Monocytes_GeneSets.R'
+    'Myeloids_Monocytes.R'
     'Viz_ontoProc.R'
-
-    

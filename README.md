@@ -39,8 +39,6 @@ CellularPhenotypes::demoPhenoPlot()
 
 library(CellularPhenotypes)
 
-
-
 ```
 
 ## How to Contribute:
